@@ -6,8 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> <script  src="index.js" >
-      
-    </script></h1>
+    <button onclick="console.log(`cartQuantity: ${cartQuantity}`)">Show Quantity</button>
+    <button onclick=" 
+        cartQuantity =cartQuantity + 1;
+        console.log(`cartQuantity: ${cartQuantity}`);
+    ">Add to Cart</button>
+    <button onclick="
+        cartQuantity=cartQuantity + 2;
+        console.log(`cartQuantity: ${cartQuantity}`);
+    ">+2</button>
+    <button onclick="
+          cartQuantity=cartQuantity + 3;
+         console.log(`cartQuantity: ${cartQuantity}`);
+    ">+3</button>
+    <button>Reset cart</button>
+    <script  src="index.js" > 
+    </script>
 </body>
 </html>
